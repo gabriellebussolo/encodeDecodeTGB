@@ -48,7 +48,7 @@ public class Main {
 			case 1: // Codificação
 				switch (method) {
 				case 1:
-					System.out.println(codigoRepeticaoRi.encode(input));
+					System.out.println(codigoRepeticaoRi.encode(input, 3));
 					System.out.println("-----------------------------------------");
 					break;
 				case 2:

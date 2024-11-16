@@ -60,7 +60,7 @@ public class Main {
 			case 2: // Decodificação
 				switch (method) {
 				case 1:
-					System.out.println(codigoRepeticaoRi.decode(input));
+					System.out.println(codigoRepeticaoRi.decode(input, 3));
 					System.out.println("-----------------------------------------");
 					break;
 				case 2:

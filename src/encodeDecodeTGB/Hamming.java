@@ -23,7 +23,7 @@ public class Hamming {
 
 			// Garante que o binario possui 8 caracteres
 			if (binaryValue.length() < 8) {
-				for (int j = 0; j < 8 - binaryValue.length(); j++)
+				while(binaryValue.length() < 8)
 					binaryValue = "0" + binaryValue;
 			}
 			

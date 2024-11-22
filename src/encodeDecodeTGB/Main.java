@@ -48,7 +48,9 @@ public class Main {
 			case 1: // Codificação
 				switch (method) {
 				case 1:
-					System.out.println(codigoRepeticaoRi.encode(input, 3));
+					System.out.println("Digite o valor do i:");
+					int i = Integer.parseInt(scanner.nextLine());
+					System.out.println(codigoRepeticaoRi.encode(input, i));
 					System.out.println("-----------------------------------------");
 					break;
 				case 2:
@@ -60,7 +62,9 @@ public class Main {
 			case 2: // Decodificação
 				switch (method) {
 				case 1:
-					System.out.println(codigoRepeticaoRi.decode(input, 3));
+					System.out.println("Digite o valor do i:");
+					int i = Integer.parseInt(scanner.nextLine());
+					System.out.println(codigoRepeticaoRi.decode(input, i));
 					System.out.println("-----------------------------------------");
 					break;
 				case 2:

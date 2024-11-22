@@ -31,7 +31,7 @@ public class CodigoDeRepeticaoRi {
 
 			// Percorre o binario acrescentando a repeticao Ri
 			for (char c1 : binaryArray) {
-				if (c1 == '0') { // TODO fazer outro for AQUI PQ O I nao é fixo
+				if (c1 == '0') {
 					for (int j = 0; j < i; j++)
 						inputEncoded = inputEncoded + "0";
 				} else {

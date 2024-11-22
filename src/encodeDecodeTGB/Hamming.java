@@ -3,7 +3,6 @@ package encodeDecodeTGB;
 public class Hamming {
 	private String inputEncoded;
 
-	private String characterDecoded;
 	private String inputDecoded;
 	
 	public String encode(String input) {
